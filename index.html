@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Surya Gautam's personal website, resume and bio-data.">
+  <title>Surya Gautam | Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Surya<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="biodata.html">Bio-data</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">PERSONAL WEBSITE</p>
+        <h1>Hi, I'm <span>Surya Gautam</span></h1>
+        <h2>Computer Science Student · Aspiring Developer</h2>
+        <p class="lead">I am pursuing my bachelor's degree at RVITM, Bengaluru. I enjoy C++, full-stack development, and building practical projects.</p>
+        <div class="button-row">
+          <a class="button primary" href="resume.html">View Resume</a>
+          <a class="button secondary" href="biodata.html">View Bio-data</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="Profile summary">
+        <div class="avatar" aria-hidden="true">SG</div>
+        <h3>Surya Gautam</h3>
+        <p class="muted">B.E. / B.Tech student</p>
+        <div class="stat-grid">
+          <div><strong>7.4</strong><span>Current CGPA</span></div>
+          <div><strong>C++</strong><span>Learning & practice</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <p class="eyebrow">OVERVIEW</p>
+      <h2 class="section-heading">Explore my details</h2>
+      <div class="card-grid">
+        <article class="info-card">
+          <div class="card-icon">▤</div>
+          <h3>Resume</h3>
+          <p>My education, technical skills, projects, and current learning goals in a professional format.</p>
+          <a class="text-link" href="resume.html">Open resume →</a>
+        </article>
+        <article class="info-card">
+          <div class="card-icon">◎</div>
+          <h3>Bio-data</h3>
+          <p>A concise personal profile and educational background. Sensitive personal details are not displayed publicly.</p>
+          <a class="text-link" href="biodata.html">Open bio-data →</a>
+        </article>
+        <article class="info-card">
+          <div class="card-icon">⌘</div>
+          <h3>Projects</h3>
+          <p>Project experience includes an Insusence project and a Noise Pollution monitor.</p>
+          <a class="text-link" href="resume.html#projects">See projects →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Surya Gautam · Personal website</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
